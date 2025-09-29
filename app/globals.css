@@ -1,6 +1,22 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: "IranYekan";
+  src: url("/assets/fonts/iranyekan/IRANYekanXFaNum-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IranYekan";
+  src: url("/assets/fonts/iranyekan/IRANYekanXFaNum-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Dana";
   src: url("/assets/fonts/dana/DanaFaNum-Light.woff2") format("woff2");
   font-weight: 300;
@@ -38,8 +54,9 @@
 
 @theme {
   --font-dana: "Dana";
+  --font-iranyekan: "IranYekan";
 }
 
 body {
-  @apply font-dana;
+  @apply font-iranyekan;
 }
