@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import ScrollTopButton from "@/components/scroll-top-button/ScrollTopButton";
 
 export const metadata: Metadata = {
   title: "ایجاد QR Code سریع و رایگان",
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="fa-IR" dir="rtl">
       <body>
         <Header />
+        <ScrollTopButton />
         {children}
         <Footer />
       </body>

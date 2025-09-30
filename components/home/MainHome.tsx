@@ -3,7 +3,7 @@ import BoxUseCase from "./BoxUseCase";
 
 const MainHome = () => {
   return (
-    <main className="container mx-auto w-full px-2 md:px-0">
+    <main className="w-[90%] lg:w-5xl 2xl:w-6xl mx-auto">
       <section className="flex flex-col items-center justify-center gap-4 md:gap-8 2xl:gap-10 py-10 md:py-16 2xl:py-20 bg-[url('/assets/images/qrcode5.svg')] bg-center bg-cover">
         <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-neutral-900">
           ساخت QR Code
@@ -18,7 +18,9 @@ const MainHome = () => {
       </section>
       <section className="bg-white flex items-center justify-center border border-neutral-300 rounded-xl p-4 h-96"></section>
       <section className="flex flex-col items-center justify-center gap-4 md:gap-8 2xl:gap-10 py-10 md:py-16 2xl:py-20">
-        <h3 className="text-2xl 2xl:text-4xl font-bold">مناسب برای تمام کارهای شما</h3>
+        <h3 className="text-2xl 2xl:text-4xl font-bold">
+          مناسب برای تمام کارهای شما
+        </h3>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 2xl:gap-8 w-full">
           <BoxUseCase title="سوشال مدیا" />
           <BoxUseCase title="کلمه عبور وای فای" />

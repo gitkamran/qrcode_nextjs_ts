@@ -6,7 +6,7 @@ import { PiGithubLogo } from "react-icons/pi";
 const Header = () => {
   return (
     <header className="w-full border-b border-b-neutral-300">
-      <div className="container mx-auto p-2 sm:px-0">
+      <div className="w-[90%] lg:w-5xl 2xl:w-6xl mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-0">
             <div className="h-auto w-12 md:w-14 2xl:w-16">
