@@ -1,5 +1,6 @@
 import React from "react";
 import BoxUseCase from "./BoxUseCase";
+import MainGenerateQRCodeBox from "../generate-qrcode-box/MainGenerateQRCodeBox";
 
 const MainHome = () => {
   return (
@@ -16,7 +17,7 @@ const MainHome = () => {
           </p>
         </div>
       </section>
-      <section className="bg-white flex items-center justify-center border border-neutral-300 rounded-xl p-4 h-96"></section>
+      <MainGenerateQRCodeBox />
       <section className="flex flex-col items-center justify-center gap-4 md:gap-8 2xl:gap-10 py-10 md:py-16 2xl:py-20">
         <h3 className="text-2xl 2xl:text-4xl font-bold">
           مناسب برای تمام کارهای شما
